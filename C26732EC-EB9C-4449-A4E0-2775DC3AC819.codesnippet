@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>taskdelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark --- Task delegate
+- (void)taskStarted:(TaskOrMethodType)type
+{
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+}
+
+- (void)taskFinished:(TaskOrMethodType)type result:(id)result
+{
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
+    if ([result isKindOfClass:[NSError class]])
+    {
+        [UIAlertView alertWithTitle:[result localizedDescription]];
+    }
+    else
+    {
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C26732EC-EB9C-4449-A4E0-2775DC3AC819</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>taskdelegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
