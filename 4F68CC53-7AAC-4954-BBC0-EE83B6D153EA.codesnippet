@@ -6,7 +6,7 @@
 	<string>taskdelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark --- Task delegate
@@ -27,14 +27,14 @@
     }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C26732EC-EB9C-4449-A4E0-2775DC3AC819</string>
+	<string>4F68CC53-7AAC-4954-BBC0-EE83B6D153EA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TaskDelegateForC++</string>
+	<string>TaskDelegateForObjectC</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
