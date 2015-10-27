@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>initframe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(self)weak = self;</string>
+	<string>self = [super initWithFrame:frame];
+    if (self)
+    {
+        
+    }
+    return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24810F2F-EEDB-4CD7-BD77-2204FCB908CD</string>
+	<string>AA4516FB-3415-4829-99FD-690FA06AAB17</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WeakDelegateForC++</string>
+	<string>init with frame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

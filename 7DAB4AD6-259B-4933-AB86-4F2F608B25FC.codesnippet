@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>datecomponents</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(self)weak = self;</string>
+	<string>- (NSDateComponents *)dateCompentsFor:(NSDate *)date
+{
+    unsigned unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit ;
+    return  [[NSCalendar currentCalendar] components:unitFlags fromDate:date];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24810F2F-EEDB-4CD7-BD77-2204FCB908CD</string>
+	<string>7DAB4AD6-259B-4933-AB86-4F2F608B25FC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>WeakDelegateForC++</string>
+	<string>date components</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
